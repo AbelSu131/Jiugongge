@@ -13,6 +13,12 @@
 		B5AD30531B78FFD500514FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AD30511B78FFD500514FF2 /* Main.storyboard */; };
 		B5AD30551B78FFD500514FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AD30541B78FFD500514FF2 /* Assets.xcassets */; };
 		B5AD30581B78FFD500514FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AD30561B78FFD500514FF2 /* LaunchScreen.storyboard */; };
+		B5AD30611B79023400514FF2 /* buttongreen_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AD305F1B79023400514FF2 /* buttongreen_highlighted.png */; };
+		B5AD30621B79023400514FF2 /* buttongreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AD30601B79023400514FF2 /* buttongreen.png */; };
+		B5AD30661B79026900514FF2 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5AD30651B79026900514FF2 /* app.plist */; };
+		B5AD30691B7903CE00514FF2 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AD30681B7903CE00514FF2 /* Model.m */; };
+		B5AD306C1B7903F000514FF2 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AD306B1B7903F000514FF2 /* MyView.m */; };
+		B5AD306F1B79040A00514FF2 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AD306E1B79040A00514FF2 /* MyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,15 @@
 		B5AD30541B78FFD500514FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5AD30571B78FFD500514FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5AD30591B78FFD500514FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AD305F1B79023400514FF2 /* buttongreen_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttongreen_highlighted.png; sourceTree = "<group>"; };
+		B5AD30601B79023400514FF2 /* buttongreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttongreen.png; sourceTree = "<group>"; };
+		B5AD30651B79026900514FF2 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
+		B5AD30671B7903CE00514FF2 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		B5AD30681B7903CE00514FF2 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		B5AD306A1B7903F000514FF2 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		B5AD306B1B7903F000514FF2 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		B5AD306D1B79040A00514FF2 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		B5AD306E1B79040A00514FF2 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,12 @@
 				B5AD304C1B78FFD500514FF2 /* AppDelegate.m */,
 				B5AD304E1B78FFD500514FF2 /* ViewController.h */,
 				B5AD304F1B78FFD500514FF2 /* ViewController.m */,
+				B5AD306A1B7903F000514FF2 /* MyView.h */,
+				B5AD306D1B79040A00514FF2 /* MyLabel.h */,
+				B5AD306E1B79040A00514FF2 /* MyLabel.m */,
+				B5AD306B1B7903F000514FF2 /* MyView.m */,
+				B5AD30671B7903CE00514FF2 /* Model.h */,
+				B5AD30681B7903CE00514FF2 /* Model.m */,
 				B5AD30511B78FFD500514FF2 /* Main.storyboard */,
 				B5AD30541B78FFD500514FF2 /* Assets.xcassets */,
 				B5AD30561B78FFD500514FF2 /* LaunchScreen.storyboard */,
@@ -74,7 +95,10 @@
 		B5AD30481B78FFD500514FF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5AD305F1B79023400514FF2 /* buttongreen_highlighted.png */,
+				B5AD30601B79023400514FF2 /* buttongreen.png */,
 				B5AD30491B78FFD500514FF2 /* main.m */,
+				B5AD30651B79026900514FF2 /* app.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,9 +160,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AD30661B79026900514FF2 /* app.plist in Resources */,
+				B5AD30621B79023400514FF2 /* buttongreen.png in Resources */,
 				B5AD30581B78FFD500514FF2 /* LaunchScreen.storyboard in Resources */,
 				B5AD30551B78FFD500514FF2 /* Assets.xcassets in Resources */,
 				B5AD30531B78FFD500514FF2 /* Main.storyboard in Resources */,
+				B5AD30611B79023400514FF2 /* buttongreen_highlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AD306F1B79040A00514FF2 /* MyLabel.m in Sources */,
 				B5AD30501B78FFD500514FF2 /* ViewController.m in Sources */,
 				B5AD304D1B78FFD500514FF2 /* AppDelegate.m in Sources */,
 				B5AD304A1B78FFD500514FF2 /* main.m in Sources */,
+				B5AD30691B7903CE00514FF2 /* Model.m in Sources */,
+				B5AD306C1B7903F000514FF2 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
